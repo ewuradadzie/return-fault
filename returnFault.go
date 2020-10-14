@@ -54,8 +54,22 @@ func returnFault(code int) {
 	// 3. Determine name and description
 
 		if ifaultCode == code {
+			fmt.Println("Fault Code: ", faultCode)
 			fmt.Println("Fault Name: ", faultName)
 			fmt.Println("Description: ", faultDesc)
+
+			// Continue or quit the process
+
+			fmt.Println("Press 1 to enter another code, or any character to quit.")
+
+			var s string
+			fmt.Scanln(&s)
+			if s == "1" {
+				returnFault()
+			} else {
+				fmt.Println("Goodbye.")
+				break
+			}
 		}
 	}
 }
