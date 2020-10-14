@@ -1,12 +1,5 @@
 package main
 
-/* 
-This script returns the fault name and description of a fault code. 
-The fault codes and their corresponding names and descriptions are stored in a csv file.
-Make sure the csv file is in the same folder as this script.
-Enter the code number as a parameter in the function returnFault(code), and it will return its name and description.
-*/
-
 // Importing supporting packages
 
 import (
