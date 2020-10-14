@@ -1,0 +1,81 @@
+﻿Fault code,Fault name,Description
+2,Grid Voltage High,Grid voltage is higher than the set protection value.
+3,Transient Voltage High,Grid instantaneously voltage is too high.
+4,Grid Voltage Low,Grid voltage is lower than the set protection value.
+5,Transient Voltage Low,Grid instantaneously voltage is too low.
+6,Hardware Fault,Contact Schneider Electric
+7,Transient AC Over current,Contact Schneider Electric
+8,Grid Frequency High,Grid frequency exceeds inverter upper set limit.
+9,Grid Frequency Low,Grid frequency is below the inverter set limit.
+10,Islanding,The main distribution system is disconnected due to power outage. The PV grid and the local load together form an isolated grid.
+11,DC Current High,The DC proportion of AC current exceeds the allowable range of the inverter. The power quality of the grid is poor.
+12,leakage current fault,Rainy days or bad grounding
+13,Abnormal grid power,Grid parameters exceed the allowable range.
+14,Grid AC Voltage Out of Range,Grid voltage is outside the allowable range.
+15,Grid AC Voltage Out of Range,Grid voltage is outside the allowable range.
+16,Power module Overload,Contact Schneider Electric
+17,Unbalanced AC Voltage,The grid three-phase voltage is not balanced.
+19,DC Bus Voltage High,This fault is caused by a high DC bus voltage due to transients
+20,DC Bus Voltage High,Same as above
+21,PVx input over current detected,Contact Schneider Electric
+23,PV string input Configuration Changed,Check the string input configuration and restart the inverter
+24,DC Bus bar voltage Imbalance,"Midpoint offset is detected between the positive and negative bus voltage. Wait for recovery. If this fault persists, Contact Schneider Electric"
+25,The instantaneous unbalance of the voltage midpoint is detected,Same as above
+26,Bus voltage fluctuation,"Bus voltage fluctuation is too large. If this fault persists, Contact Schneider Electric"
+36,Module Temperature High,This fault is caused by the inverter detecting the internal temperature of the inverter or the module temperature being too high. Check trouble shooting in Appendix.
+37,Ambient Temperature High,Same as above
+38,Relay Failure,Contact Schneider Electric
+39,Insulation impedance fault (ISO-flt),Inverter panel has low insulation resistance. Check trouble shooting in Appendix.
+40,Over current protection,"There may be over-voltage DC module, over-current, AC module over-current. Contatc Schneider Electric"
+41,Hardware Fault,The hardware circuit referemce value automatically changes. Contact Schneider Electric
+42,Current unbalance fault,The inverter detects the unbalanced three-phase grid current. Check troubleshooting in Appendix
+43,Ambient temperature Low,The ambient temperature is lower than -25℃.
+44,AC-DC inverter fault.,Inverter hardware circuit failure
+47,Incorrect PV input configuration,The PV input configuration mode settings are incorrect for the actual connection
+48,Hardware Fault,"Wait for recovery. If fault persists, contact Schneider Electric."
+49,Hardware Fault,Same as above
+50,Hardware Fault,Same as above
+51,Hardware Voltage/Current High,Same as above
+70,Fan failure,Fan speed is not within the normal range. Check troubleshooting in Appendix
+71,AC SPD Fault,Probable lightning surge in the vicinity of PV plant. Check troubleshooting in Appendix
+72,DC SPD Fault,same as above
+73,PV String Fuse Blown,Stop the inverter and disconnect all the sources and replace the fuse
+74,LCD communication failure,The LCD communication line is damaged or the cable is loose
+75,Low irradiance.,"1, bad weather, lack of radiation from Sun.                                               2, the sun is blocked due to huge clouds"
+76,PV power overload,The PV voltage is too high and causing excessive input power.
+78,PV1 Power Abnormal ,PV1 is not connected. Check troubleshooting in Appendix
+87,AFD Module abnormal alarm,Contact Schneider Electric.
+88,Arc fault,The ARC fault is detected on DC side of the inverter Check troubleshooting in Appendix.
+89,AFD disabled alarm,The arc detection function is artificially turned off. Reactivate it through LCD.
+532,String 1 reversed polarity,PV positive and negative reversed.
+533,String 2 reversed polarity,PV positive and negative reversed.
+534,String 3 reversed polarity,PV positive and negative reversed.
+535,String 4 reversed polarity,PV positive and negative reversed.
+536,String 5 reversed polarity,PV positive and negative reversed.
+537,String 6 reversed polarity,PV positive and negative reversed.
+538,String 7 reversed polarity,PV positive and negative reversed.
+539,String 8 reversed polarity,PV positive and negative reversed.
+540,String 9 reversed polarity,PV positive and negative reversed.
+541,String 10 reversed polarity,PV positive and negative reversed.
+542,String 11 reversed polarity,PV positive and negative reversed.
+543,String 12 reversed polarity,PV positive and negative reversed.
+544,String 13 reversed polarity,PV positive and negative reversed.
+545,String 14 reversed polarity,PV positive and negative reversed.
+546,String 15 reversed polarity,PV positive and negative reversed.
+547,String 16 reversed polarity,PV positive and negative reversed.
+548,String 1 component abnormal,The string has an abnormal phenomenon
+549,String2 component abnormal,The string has an abnormal phenomenon
+550,String3 component abnormal,The string has an abnormal phenomenon
+551,String4 component abnormal,The string has an abnormal phenomenon
+552,String5 component abnormal,The string has an abnormal phenomenon
+553,String6 component abnormal,The string has an abnormal phenomenon
+554,String7 component abnormal,The string has an abnormal phenomenon
+555,String8 component abnormal,The string has an abnormal phenomenon
+556,String9 component abnormal,The string has an abnormal phenomenon
+557,String10 component abnormal,The string has an abnormal phenomenon
+558,String11 component abnormal,The string has an abnormal phenomenon
+559,String12 component abnormal,The string has an abnormal phenomenon
+560,String13 component abnormal,The string has an abnormal phenomenon
+561,String14 component abnormal,The string has an abnormal phenomenon
+562,String15 component abnormal,The string has an abnormal phenomenon
+563,String16 component abnormal,The string has an abnormal phenomenon
