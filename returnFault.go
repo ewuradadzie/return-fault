@@ -16,8 +16,6 @@ import (
 	"os"
 )
 
-
-
 // Main function
 
 func main() {
@@ -25,9 +23,6 @@ func main() {
 	returnFault(code) // Enter the code number here
 
 	}
-
-
-
 
 // returnFault function
 
